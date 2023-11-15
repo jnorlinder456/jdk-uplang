@@ -9,5 +9,6 @@ WORKDIR /home/vscode
 RUN wget https://download.java.net/java/GA/jdk21.0.1/415e3f918a1f4062a0074a2794853d0d/12/GPL/openjdk-21.0.1_linux-x64_bin.tar.gz
 RUN tar -xvf openjdk-21.0.1_linux-x64_bin.tar.gz
 RUN rm openjdk-21.0.1_linux-x64_bin.tar.gz
+RUN wget https://github.com/dacapobench/dacapobench/releases/download/v9.12-bach/dacapo-9.12-bach.jar
 
 ## Post install
