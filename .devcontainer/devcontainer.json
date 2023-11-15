@@ -1,0 +1,16 @@
+{
+    "name": "OpenJDK",
+    "build": {
+	"dockerfile": "Dockerfile"
+    },
+    "customizations": {
+	// Configure properties specific to VS Code.
+	"vscode": {
+	    "settings": {},
+	    "extensions": [
+		"streetsidesoftware.code-spell-checker"		
+	    ]
+	}
+    },
+    "onCreateCommand": "bash -i ${containerWorkspaceFolder}/.devcontainer/init.sh"
+}
