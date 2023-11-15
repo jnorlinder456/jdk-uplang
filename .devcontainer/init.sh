@@ -8,4 +8,5 @@ cd ${SCRIPT_PATH}/..
 bash configure --with-boot-jdk=/home/vscode/jdk-21.0.1/ --with-native-debug-symbols=internal --disable-warnings-as-errors 
 bash configure --with-boot-jdk=/home/vscode/jdk-21.0.1/ --with-debug-level=slowdebug --with-native-debug-symbols=internal --disable-warnings-as-errors
 make CONF=rel compile-commands
+make CONF=rel
 exit
