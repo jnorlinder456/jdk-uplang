@@ -13,5 +13,6 @@
 	    ]
 	}
     },
-    "onCreateCommand": "bash -i ${containerWorkspaceFolder}/.devcontainer/init.sh"
+    "onCreateCommand": "bash -i ${containerWorkspaceFolder}/.devcontainer/init.sh",
+    "hostRequirements": {"cpus": 4}
 }
