@@ -9,4 +9,5 @@ bash configure --with-boot-jdk=/home/vscode/jdk-21.0.1/ --with-native-debug-symb
 bash configure --with-boot-jdk=/home/vscode/jdk-21.0.1/ --with-debug-level=slowdebug --with-native-debug-symbols=internal --disable-warnings-as-errors
 make CONF=rel compile-commands
 make CONF=rel
+make CONF=slow
 exit
